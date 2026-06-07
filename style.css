@@ -17,6 +17,13 @@ font-family: Arial,sans-serif;
     border-radius: 10px;
     object-fit: cover;
 }
+.location{
+    margin-left: auto;
+    display: flex;
+    margin-right: 25px;
+    align-items: center;
+    gap:8px;
+}
 .navbar{
     background: white;
     display: flex;     
