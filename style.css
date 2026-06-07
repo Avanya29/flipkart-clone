@@ -30,7 +30,7 @@ font-family: Arial,sans-serif;
     padding:20px;
     justify-content: space-between;
     align-items: center;
-    gap:10px;
+    
 }
 .search{
     width: 65%;
@@ -107,4 +107,137 @@ font-family: Arial,sans-serif;
     cursor: pointer;
     font-weight: bold;
     border: none;
+}
+.footer{
+    background: #212121;
+    margin: 5px;
+}
+.footer-coloumn{
+    display: flex;
+    flex-direction: column;
+    gap:10px;  
+}
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+.footer-coloumn h4{
+    color: #878787;
+    font-size: 13px;
+    margin-bottom: 15px;
+    font-weight: lighter;
+}
+.footer-coloumn a{
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+    text-decoration: none;
+}
+.footer-bottom{
+    border-top:1px solid #454d5e;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+} 
+.mail{
+   border-left:1px solid #454d5e;
+    padding-left:30px;
+}
+.mail h4{
+    color: #878787;
+    font-weight: lighter;
+    font-size: 13px;
+    margin-bottom: 15px;
+}
+.mail p{
+    color:white;
+    font-weight: lighter;
+    font-size: 12px;
+}
+.address p{
+  color: white;
+  font-weight: lighter;
+  font-size:12px ;
+}
+.address h4{
+    color:#878787;
+    font-weight: lighter;
+    font-size: 13px;
+    margin-bottom: 15px;
+}
+.footer-item{
+    color: white;
+    font-size: 13px;
+}
+.payments{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+.payments img{
+    height:20px;
+    width: auto;
+}
+.footer-coloumn a:hover{
+    text-decoration: underline;
+}
+.trends-section{
+    margin: 25px;
+    padding: 20px;
+    background: rgba(255, 255, 0, 0.615);
+    border-radius: 10px;
+}
+.trends-section h2{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.Product-row{
+    display: flex;
+    gap: 15px;
+}
+.product-card{
+    background: white;
+    border-radius: 15px;
+    flex:1;
+    text-align: center;
+    padding: 10px;
+}
+.product-card img{
+    object-fit: cover;
+    height:200px;
+    cursor: pointer;
+}
+.product-card p{
+    font-weight: bold;
+    background: rgba(255, 255, 0, 0.425);
+    cursor: pointer;
+}
+.appliances-section{
+    margin:25px;
+    padding: 20px;
+    background:rgba(30, 0, 128, 0.16);
+    border-radius: 10px;
+}
+.appliances-section h2{
+   padding: 10px; 
+   margin-bottom: 20px;
+}
+.appliance-row{
+    display: flex;
+    gap:10px;
+}
+.appliance-row img{
+    object-fit: cover;
+    height:200px;
+    cursor: pointer;
+}
+.appliance-item{
+    border-radius: 15px;
+    flex:1;
+    background: white;
+    text-align: center;
+    padding: 10px;
 }
